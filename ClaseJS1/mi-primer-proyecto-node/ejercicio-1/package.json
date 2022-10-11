@@ -1,0 +1,17 @@
+{
+	"name": "ejercicio-1",
+	"version": "1.0.0",
+	"description": "Este es el ejercicio 1 de Introducción a JavaScrip",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"saludo": "node saludo.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"try",
+		"comenzar"
+	],
+	"author": "Leonel Carrizo",
+	"license": "ISC"
+}
