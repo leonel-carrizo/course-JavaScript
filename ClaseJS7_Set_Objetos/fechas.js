@@ -29,7 +29,7 @@ console.log(fecha2.getTime() === fecha5.getTime());
 
 // Obetener el día, el mes y el año de una fecha.
 // Método .getDay() para obtener el día
-console.log(fecha2.getDay());
+console.log(fecha2.getDate());
 
 // Obetner Mes con .getMonth()
 console.log(fecha2.getMonth() + 1); // se suna uno porque el indice del mes comienza con 0.
