@@ -1,0 +1,26 @@
+npm es el gestor de paquetes con el que podemos descargar/importar las librerias.
+
+Para este ejemplo se usa la libreria 'axios' que sirve para hacer peticiones http a diferentes servidores
+
+Se crea carpeta para instalar axios. 'video-libreria'
+
+Dentro de video-librerias creamos un proyecto node con 'npm init -y'
+
+Indicamos en el archivo package.json el "type": "module" y se modifica el "start": "node index.js"
+se crea el fichero index.js
+
+Se descarga la libreria axios con 'npm i axios'
+
+se usa axios para hacer una llamada http a la API gratuita 'pokeapi.co' la cual devuelve una lista de pokemones
+
+1. Se importa la libreria axios al index.js es : 'import axios from "axios"'
+
+Desde la página de la documentación se copia el script para hacer la petición a la API. Se pega en el index.js
+
+Pegamos la URL inidcada en la pagina de la API con la que se hará la llamada: https://pokeapi.co/api/v2/pokemon/ditto
+
+Se ejecuta con 'npm index.js'
+
+Devuelve una respuesta exitosa
+
+se indica en el 'console.log(response.data)' para acceder a la informacion y la iprima por consola

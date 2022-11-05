@@ -1,0 +1,24 @@
+1. Se crea una carpeta para los modulos ES6, para este ejemplo se creo 'modulos-es6'.
+2. dentro de esta carpeta se crea el package.json usando el comando 'npm init -y' en la terminal.
+3. se crea el archivo index.js.
+
+4. Se crea la carpeta donde se ingresaran los archivos con dichos módulos, en este ejemplo se sigue con el 'matematicas.js'
+
+5. En el archivo package.js inidcar que tipo de importación se usara a continuación.
+
+6. debajo de 'main' escribir comillas y encontrar la propiedad 'type'e indicar 'module'
+
+7. En el archivo 'matematicas.js' donde estan nuestras funciones, indiciar al comeinzo de cada función la palabra 'export' de esta forma se convierten en públicas y se puede acceder a ellas.
+
+8. Luego en el index.js o el archivo donde queremos importar el módulo, se ingresa el comando "import { suma } from './modulos/matematicas.js'"
+
+No solo se puedes exportar funciones sino también constantes
+
+Si se quiere importar todas las propiedades, funciones, métodos se usa 'import * as moduloMatematica from './modulos/matematicas'
+
+Secreó otra carpeta para módulos 'literatura'
+
+Otra forma de importar un modulo es a través de 'import default getAutor' en index.js
+Para esto se debe indicar al final del archivo (literatura) del módulo, 'export default getAutor'
+Solo puede haber un export default por archivo. pero puede se pueden exportar varias const. 'export const libro = 'Don quijote de la mancha'
+En index -> import getAutor, { libre } from './modulos/literatura.js'
