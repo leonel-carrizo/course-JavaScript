@@ -1,0 +1,3 @@
+// Interfaces. No hay una interfaz para javaScrip -> duck typing
+
+// Se puede usar el lenguaje Typescript -> Sí podemos utilizar las interfaces.
