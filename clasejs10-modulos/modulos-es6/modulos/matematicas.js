@@ -21,3 +21,4 @@ export function factorial(a) {
 }
 
 export const nombre = 'matematicas'
+
